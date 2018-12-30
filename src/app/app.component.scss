@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.cust-pad {
+	padding: 3em 2em 3em 2em;
+}
+
+.navbar {
+	background-color: rgba(69, 69, 69, 0.5);
+	padding: 2em 1em 2em 1em;
+}
+
+.navbar a {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.navbar li {
+ 	display: inline;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.underline {
+	border-bottom: 2px solid black;
+	background: linear-gradient(135deg,#00C4FF,rgb(233, 51, 151));
+	color: white;
+	padding: 10px;	
+}
+
+.banner-photo {
+	background-image:url('http://i59.tinypic.com/ev9yww.jpg');
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner {
+	background-image:url('/assets/images/amyprofile.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	display: table;
+}
+
+.align-vertical {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.greeting {
+	// font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+.about-me {
+	font-size: 1.1rem;
+	border-bottom: 1px rgb(211, 211, 211) solid;
+	background-color: rgb(247, 247, 247);
+	text-align: center;
+	display: table;
+	height: 100vh;
+}
+
+.about-me h2 {
+	padding-bottom: 1em;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.icon-size {
+    height: 20px;
+}
+
+.footer li {
+ 	display: inline;
+ 	padding-right: 5px;
+}
+
+.footer {
+	// background-color: #212121;
+	background: linear-gradient(135deg,#00C4FF,rgb(233, 51, 151));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: bottom;
+	border-top: 1px solid gray;
+	color: white;
+	font-size: 1.1rem;
+}
+
+.footer a {
+	color: white;
+	font-size: 18px;
+}
+
+.contact {
+	position: absolute;
+    bottom: 0;
+    padding: 0;
+}
